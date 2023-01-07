@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head >
+    <style> 
+        body {color:#ffffff; backface-visibility: 50%; background-color: rgb(233, 220, 203)}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docu</title>
+    <!-- <link rel="stylesheet" href="assests/css/style.css"> -->
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- heading -->
+    <h1 style="background-color: rgb(136, 183, 230); bottom:  solid tomato; text-align: center; font-size: 38pt;">NewLook</h1>
+        <h3 style="margin-top: 2px; border: 2px solid rgb(128, 115, 115); color: rgb(90, 124, 11);">Create your account:</h3><br>
+<!-- input tag:start  -->
+<form action="https://google.com" method="POST">
+<label style="color: grey;" for="name input"> <strong> Enter your first name:</strong></label>
+    <input  type="text" value="Ram" id="name input">
+
+    <label style="color:grey" for="middle name input"> <strong>Middle name:</strong> </label>
+    <input type="text" value="Prakash" id="middle name input" step="10">
+
+    <label style="color:grey" for="last name input"> <strong>Last name:</strong></label>
+    <input type="text" value="Jaiswal" id="last name input" step="10"><br><br>
+
+    <label style="color:grey" for="Male"> <strong>Gender: <br> Male</strong></label>
+    <input type="radio" name='Gender' value="male" id="Male" >
+
+    <label style="color:grey" for="Female"> <strong>Female</strong></label>
+    <input type="radio" name='Gender' value="female" id="Female" >
+
+    <label style="color:grey" for="Other"> <strong>Other</strong></label>
+    <input type="radio" name='Gender' value="Other" id="Other" ><br><br>
+
+    <label style="color: grey;" for="emailid"><strong>Enter your email id:</strong></label>
+    <input type="email"  placeholder="jack@gmail.com"  id="emailid" size="45"> <br><br>
+    
+    <label style="color: grey;" for="password"><strong>Enter your password:</strong></label>
+    <input type="password"  placeholder="Minimum eight charaters" minlength="8" id="password" size="30" > <br><br>
+
+    <label style="color: grey;" for="password"><strong>Re-enter your password:</strong></label>
+    <input type="password"  placeholder="Re-enter password" minlength="8" id="password" size="30"> <br><br>
+
+    <label style="color: grey;" for="age"><strong>Enter your age:</strong></label>
+    <input type="number"  placeholder="Your age"  id="age" > <br><br>
+
+    <label style="color: grey;" for="DOB"><strong>Enter your <abbr title="Date of birth">DOB</abbr></strong></label>
+    <input type="date"   id="DOB" > <br><br>
+
+    <label style="color: grey;" for="favcolor"><strong>Select your favorite color:</strong></label>
+    <input type="color" id="favcolor" name="favcolor"><br><br>
+
+    <label style="color: grey;" for="vehicle1"><strong>Types of vehicle you owned: Bycicle</strong></label>
+    <input type="checkbox" name="vehicle1" value="Bycicle" id="vehicle1" > 
+
+    <label style="color: grey;" for="vehicle2"><strong><abbr title="Two Wheeler">2W</abbr></strong></label>
+    <input type="checkbox" name="vehicle2" value="2W" id="vehicle2" > 
+    
+    <label style="color: grey;" for="vehicle3"><strong><abbr title="Four Wheeler">4W</abbr></strong></strong></label>
+    <input type="checkbox" name="vehicle3" value="4W" id="vehicle3" > <br> <br>
+
+    <label style="color: grey;" for="2W"><strong>Owned <abbr title="Two Wheeler">2W</abbr></strong></label>
+    <select name="2W" id="2W" > 
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+
+    <!-- <label style="color: grey;" for="cars"><strong>Choose a car:</strong> </label>
+        <select id="cars" name="cars" size="4" multiple>
+          <option style="color: grey;" value="volvo">Volvo</option>
+          <option style="color: grey;" value="saab">Saab</option>
+          <option style="color: grey;" value="fiat">Fiat</option>
+          <option style="color: grey" value="audi">Audi</option>
+        </select>  -->
+
+
+    <input type="submit"  value="         Submit          " id="submit" > <br><br>
+</form>
+    <!-- input tag:end  -->
+
+    <!-- table start -->
+<table style="color: rgb(92, 89, 89); width: 30%; border: solid black; box-shadow: solid rgb(70, 63, 63), 2px;">
+    <thead>
+    <tr style="color: black;">
+        <th>Fruit Name</th>
+        <th>color</th>
+        <th>price</th>
+        <th>unit</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Apple</td>
+        <td>Red</td>
+        <td>100</td>
+        <td>Kg</td>
+    </tr>
+    <tr>
+        <td>banana</td>
+        <td>Yellow</td>
+        <td>40</td>
+        <td>dozen</td>
+    </tr>
+    <tr>
+        <td>Orange</td>
+        <td>Orange</td>
+        <td>50</td>
+        <td>Kg</td>
+    </tr>
+</tbody>
+
+</table><br>
+
+    <!-- table end -->
+
+<label for="google"><h4> Google search:</h4></label>
+<!-- <input type="search" id="google"> -->
+    <a target="blank" href="http://google.com">clicl here</a>
+
+    </body>
+</html>
